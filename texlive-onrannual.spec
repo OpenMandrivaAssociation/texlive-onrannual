@@ -1,3 +1,9 @@
+# revision 17474
+# category Package
+# catalog-ctan /macros/latex/contrib/onrannual
+# catalog-date 2010-03-20 01:12:30 +0100
+# catalog-license lppl1.3
+# catalog-version 1.1
 Name:		texlive-onrannual
 Version:	1.1
 Release:	1
@@ -44,6 +50,7 @@ document (and its PDF output) are included.
 %doc %{_texmfdistdir}/doc/latex/onrannual/samplefigure.pdf
 %doc %{_texmfdistdir}/doc/latex/onrannual/skeleton.pdf
 %doc %{_texmfdistdir}/doc/latex/onrannual/skeleton.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ document (and its PDF output) are included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
