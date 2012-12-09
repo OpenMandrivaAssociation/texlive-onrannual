@@ -51,3 +51,17 @@ document (and its PDF output) are included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 754550
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 719163
+- texlive-onrannual
+- texlive-onrannual
+- texlive-onrannual
+- texlive-onrannual
+
