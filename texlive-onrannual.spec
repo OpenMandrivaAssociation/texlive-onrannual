@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-onrannual
 Version:	1.1
-Release:	3
+Release:	4
 Summary:	Class for Office of Naval Research Ocean Battlespace Sensing annual report
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/onrannual
