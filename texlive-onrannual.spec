@@ -3,7 +3,7 @@ Version:	17474
 Release:	2
 Summary:	Class for Office of Naval Research Ocean Battlespace Sensing annual report
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/onrannual
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/onrannual
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/onrannual.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/onrannual.doc.r%{version}.tar.xz
